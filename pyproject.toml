@@ -1,1 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
+[project]
+name = "GWBackFinder"
+version = "1.0.0"
+authors = [
+  { name="Androniki Dimitriou", email="androniki.dimitriou@ific.uv.es" },
+  { name="Daniel G. Figueroa", email=""},
+  { name="Bryan Zaldivar", email=""}
+]
+description = "Code for the paper Fast Likelihood-free Reconstruction of Gravitational Wave Backgrounds"
+dependencies = [
+"numpy",
+"healpy",
+"astropy",
+"numba",
+"juliacall",
+"torch",
+"statistics",
+"scipy",
+
+
+]
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AndronikiDimitriou/GWBackFinder"
+"Bug Tracker" = "https://github.com/AndronikiDimitriou/GWBackFinder/issues"
