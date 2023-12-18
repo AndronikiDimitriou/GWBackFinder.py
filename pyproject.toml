@@ -20,8 +20,6 @@ dependencies = [
 "torch",
 "statistics",
 "scipy",
-
-
 ]
 readme = "README.md"
 license = { file="LICENSE" }
